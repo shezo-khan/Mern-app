@@ -1,0 +1,29 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "My First Mern Application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node server.js";
+    "server": "nodemon server.js";
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shezo-khan/Mern-app.git"
+  },
+  "author": "Shehzad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shezo-khan/Mern-app/issues"
+  },
+  "homepage": "https://github.com/shezo-khan/Mern-app#readme"
+}
